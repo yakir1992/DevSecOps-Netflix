@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+	name = yakir1992
+[credential]
+	username = yakir1992
+[remote "origin"]
+	url = https://yakir1992@github.com/yakir1992/DevSecOps-Netflix
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "netflix"]
+	url = https://github.com/yakir1992/DevSecOps-Netflix.git
+	fetch = +refs/heads/*:refs/remotes/netflix/*
